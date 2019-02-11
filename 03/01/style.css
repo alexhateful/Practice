@@ -1,0 +1,36 @@
+div {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+ul {
+    font-size: 22px;
+}
+li {
+    list-style-type: square;
+}
+.c1 {
+    color: #FF3400;
+}
+.c2 {
+    color: #CA6666;
+}
+.c3 {
+    color: #FFFF00;
+}
+.c4 {
+    color: #009900;
+}
+.c5 {
+    color: #00CCFE;
+}
+.c6 {
+    color: #3201CC;
+}
+.c7 {
+    color: #3400C9;
+}
