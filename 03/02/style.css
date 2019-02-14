@@ -1,0 +1,33 @@
+body{
+    background-color:#990909;
+}
+.header{
+    text-align: center;
+}
+.img{
+    background-color: black;
+    color: white;
+    border: 1px;
+    text-align: center;
+    max-width: 100%;
+}
+table{
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #E95B11;
+}
+h3{
+    background-color: #BCBDBD;
+}
+hr{
+    width: 65%;
+}
+.right_sidebar{
+    background-color: white;
+}
+a{
+    color: #A82708;
+}
