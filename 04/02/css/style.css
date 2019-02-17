@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #1D1B1C;
+    height: 450px;
+    margin-top: 115px;
+    text-align: center;
+    color: #F9F9F9;
+}
+.img{
+    margin-top: 105px;
+    background-color: #FFAD00;
+    height: 80px;
+    width: 80px;
+    margin-left: 120px;
+    border-radius: 20px 0 20px 0;
+}
+img{
+    margin-top: 20px;
+}
+h2{
+    font-weight: normal;
+}
+.col{
+    padding: 0px 30px;
+}
