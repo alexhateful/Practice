@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #121116;
+}
+.container{
+    height: 420px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 230px;
+}
+li{
+    list-style-type: none;
+    height: 30px;
+    padding-top: 7px;
+}
+ul{
+    padding-right: 45px;
+}
+h3{
+    margin-top: 50px;
+}
+p{
+    margin-top: 100px;
+}
+span{
+    color: #00D5FF;
+}
+.fb:hover{
+    background-color: #2E458B;
+    border-radius: 5px;
+}
+.tw:hover{
+    background-color: #41ABE1;
+    border-radius: 5px;
+}
+.gl:hover{
+    background-color: #D5463A;
+    border-radius: 5px;
+}
+.dl:hover{
+    background-color: #D54C0E;
+    border-radius: 5px;
+}
