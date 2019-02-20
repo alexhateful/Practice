@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: white;
+    height: 459px;
+    margin-top: 111px;
+    text-align: center;
+    padding-top: 118px;
+}
+hr{
+    border-color: #00DBFF;
+    width: 70px;
+    margin-top: 20px;
+}
+#p3{
+    margin-top: -10px;
+}
+p{
+    color: #A3A8AC;
+}
+h2{
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 48px;
+}
+.container{
+    padding-top: 16px;
+}
+.col{
+    padding: 0 34px;
+    padding-right: 0px;
+}
