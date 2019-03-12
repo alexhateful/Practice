@@ -1,0 +1,113 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.who_we_are{
+    background-color: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 5%;
+    height: 3px;
+    background-color: #DDDBDC;
+    border: none;
+    margin-bottom: 35px;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.our__photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+.photo__item{
+    position: relative;
+}
+.photo__item a::after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    background-color: #18B6DD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 79%;
+    opacity: .1;
+}
+.photo__item a:hover:after{
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+.icons{
+    display: flex;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-40%, -45%);
+    visibility: hidden;    
+    opacity: .1;
+}
+.icons>i{
+    margin-left: 10px;
+}
+.photo__item a:hover .icons{
+    visibility: visible;
+    z-index: 2;
+    opacity: 1;
+    transition: .3s;
+}
+.our__skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.skill__item{
+    text-align: center;
+}
+.hovered{
+    display: none;
+}
+.skill__item a:hover .hovered{
+    display: block;
+    margin: 0 auto;
+}
+.not__hovered{
+    display: block;
+    margin: 0 auto;
+}
+.skill__item a:hover .not__hovered{
+    display: none;
+}
+.skill__item h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 45px;
+}
+.skill__item a:hover h1{
+    color: #19B5DE;
+}
+.what_we_do{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
