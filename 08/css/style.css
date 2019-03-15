@@ -1,0 +1,110 @@
+
+.section--who_we_are {
+    padding-top: 50px;
+}
+.section__name {
+    margin: 0 auto;
+    text-align: center;
+    color: #898f99;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    margin-left: 25px;
+}
+.section__title {
+    margin: 27px auto;
+    text-align: center;
+    color: #0ec8cb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+}
+.section__sub {
+    margin: 39 auto;
+    text-align: center;
+    color: #999;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-left: 8px;
+    margin-top: 39px;
+}
+.section__boxes {
+    margin-top: 100px;
+}
+[class^="icon"] {
+    font-size: 64px;
+}
+.box__item {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 55px 30px 90px 30px;
+    transition: .5s;
+}
+.box__item:hover {
+    background-color: #0ec8cb;
+    cursor: pointer;
+}
+.box__item:hover * {
+    color: white;
+}
+.box__title {
+    color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+}
+.box__text {    
+    color: #777;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 23px;
+    letter-spacing: -.2px;
+}
+
+    /* Anchor */
+.item--anchor .box__title {
+    margin-top: 52px;
+}
+
+    /* Diamond */
+.item--diamond .box__title {
+    margin-top: 39px;
+    margin-left: -3px;
+}
+.item--diamond .box__text {
+    margin-bottom: -11px;
+}
+
+    /* Eyeglasses */
+.item--eyeglasses .icon-Eyeglasses {
+    font-size: 48px;
+    margin-top: 8px;
+}
+.item--eyeglasses .box__title {
+    margin-top: 60px;
+    margin-left: -3px;
+}
+
+    /* Monitor */
+.item--monitor .icon-Monitor {
+    font-size: 50px;
+    margin-top: 7px;
+}
+.item--monitor .box__title {
+    margin-top: 60px;
+    margin-left: -3px;
+}
